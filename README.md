@@ -13,7 +13,7 @@ OpenCopilot is an offline-first, Retrieval-Augmented Generation (RAG) assistant 
 - A free Groq API key (get yours at [console.groq.com](https://console.groq.com/))
 
 ## Environment Setup (.env)
--You must configure your Groq API key for the LLM to generate responses. OpenCopilot uses python-dotenv to securely load this key without hardcoding it into the application.
--In the root directory of the project, create a new file named exactly .env.
--Add your Groq API key to the file in the following format (no quotation marks or spaces around the equals sign):
+- You must configure your Groq API key for the LLM to generate responses. OpenCopilot uses python-dotenv to securely load this key without hardcoding it into the application.
+- In the root directory of the project, create a new file named exactly .env.
+- Add your Groq API key to the file in the following format (no quotation marks or spaces around the equals sign):
       GROQ_API_KEY=gsk_your_actual_api_key_characters_here
